@@ -183,7 +183,7 @@ def main():
         user_stats(df,city)
         raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart your search? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
